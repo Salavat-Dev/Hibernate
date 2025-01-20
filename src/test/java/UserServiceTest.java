@@ -48,6 +48,7 @@ public class UserServiceTest {
                     || testAge != user.getAge()
             ) {
                 Assert.fail("User был некорректно добавлен в базу данных");
+
             }
 
         } catch (Exception e) {

@@ -17,8 +17,6 @@ public class Main {
         userService.saveUser("Nikolay", "Nikolayev",(byte) 33);
         userService.saveUser("Lena", "Poleno",(byte) 27);
         userService.getAllUsers();
-//        User user = userDaoJDBC.getAllUsers().get(0);
-//        System.out.println(user);
 //        userService.cleanUsersTable();
 //        userService.dropUsersTable();
         // реализуйте алгоритм здесь

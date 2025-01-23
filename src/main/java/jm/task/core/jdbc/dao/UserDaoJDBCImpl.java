@@ -76,7 +76,7 @@ public class UserDaoJDBCImpl implements UserDao {
                 String name = resultSet.getString("name");
                 String lastName = resultSet.getString("last_name");
                 byte age = resultSet.getByte("age");
-                User user = new User(id, name, lastName, age);
+                User user = new User(name,lastName,age);
                 users.add(user);
                 System.out.println("User [id = " + id + ", name = " + name + "," +
                         " lastName = " + lastName + ", age = " + age + "]");
